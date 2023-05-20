@@ -1,0 +1,29 @@
+{
+    "name": "web-gpu",
+    "version": "1.0.0",
+    "description": "Sandbox for experimenting with the capabilities of the new API WebGPU.",
+    "main": "scripts/index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "build:watch": "npx tsc --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeremyBankes/web-gpu.git"
+    },
+    "keywords": [
+        "WebGPU",
+        "Experiment",
+        "Sandbox"
+    ],
+    "author": "Jeremy Bankes",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/JeremyBankes/web-gpu/issues"
+    },
+    "homepage": "https://github.com/JeremyBankes/web-gpu#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "typescript": "^5.0.4"
+    }
+}

@@ -1,0 +1,8 @@
+:root {
+    --render-scale: 2;
+}
+
+canvas {
+    width: calc(512px * var(--render-scale));
+    height: calc(288px * var(--render-scale));
+}
